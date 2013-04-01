@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="41" height="5" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16">
+  <image source="../../data/tiles.png" trans="000000" width="256" height="256"/>
+ </tileset>
+ <layer name="main" width="41" height="5">
+  <data encoding="base64">
+   AAAAAAAAAAAGAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAADAAAABAAAAAUAAAAEAAAAAQAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAMAAAAEAAAABQAAAAQAAAABAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAYAAACBAAAAgQAAAIEAAACBAAAAgQAAAIEAAACBAAAAgQAAABMAAACRAAAAiQAAAJEAAAARAAAAgQAAAIEAAACBAAAAgQAAAIEAAACBAAAAgQAAAIEAAACBAAAAEwAAAJEAAACJAAAAkQAAABEAAACBAAAAgQAAAIEAAACBAAAAgQAAAIEAAACBAAAAgQAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAFgAAAJEAAACRAAAAkQAAAJEAAACRAAAAkQAAAJEAAACRAAAAwQAAAJEAAACJAAAAkQAAAMIAAACRAAAAkQAAAJEAAACRAAAAkQAAAJEAAACRAAAAkQAAAJEAAADBAAAAkQAAAIkAAACRAAAAwgAAAJEAAACRAAAAkQAAAJEAAACRAAAAkQAAAJEAAACRAAAAFwAAAAAAAAAAAAAAAAAAAAAAAAAmAAAAkQAAAJEAAACRAAAAkQAAAJEAAACRAAAAkQAAAJEAAADRAAAAkQAAAIkAAACRAAAA0gAAAJEAAACRAAAAkQAAAJEAAACRAAAAkQAAAJEAAACRAAAAkQAAANEAAACRAAAAiQAAAJEAAADSAAAAkQAAAJEAAACRAAAAkQAAAJEAAACRAAAAkQAAAJEAAAAnAAAAAAAAAAAAAAAAAAAAAAAAADYAAAChAAAAoQAAAKEAAAChAAAAoQAAAKEAAAChAAAAoQAAAOEAAAChAAAAmQAAAKEAAADiAAAAoQAAAKEAAAChAAAAoQAAAKEAAAChAAAAoQAAAKEAAAChAAAA4QAAAKEAAACZAAAAoQAAAOIAAAChAAAAoQAAAKEAAAChAAAAoQAAAKEAAAChAAAAoQAAADcAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="41" height="5">
+  <object type="door" x="176" y="32" width="16" height="48">
+   <properties>
+    <property name="dir" value="left"/>
+   </properties>
+  </object>
+  <object type="door" x="240" y="32" width="16" height="48">
+   <properties>
+    <property name="dir" value="right"/>
+   </properties>
+  </object>
+  <object type="door" x="464" y="32" width="16" height="48">
+   <properties>
+    <property name="dir" value="right"/>
+   </properties>
+  </object>
+  <object type="door" x="400" y="32" width="16" height="48">
+   <properties>
+    <property name="dir" value="left"/>
+   </properties>
+  </object>
+  <object type="room" x="32" y="16" width="160" height="64"/>
+  <object type="room" x="240" y="16" width="176" height="64"/>
+  <object type="room" x="464" y="16" width="160" height="64"/>
+  <object type="start" x="208" y="64" width="16" height="16"/>
+  <object type="start" x="432" y="64" width="16" height="16"/>
+ </objectgroup>
+</map>
