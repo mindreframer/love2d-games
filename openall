@@ -1,0 +1,6 @@
+#!/bin/sh
+
+gedit main.lua &
+gedit gameplay.lua &
+gedit functions.lua &
+gedit menus.lua
