@@ -1,0 +1,3 @@
+[submodule "luagravity"]
+	path = luagravity
+	url = https://github.com/fsantanna/luagravity
