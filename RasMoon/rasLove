@@ -1,0 +1,35 @@
+#!/usr/bin/env lua
+
+package.path = package.path .. ";src/?.lua"
+require 'src.index'
+
+function usage()
+   print("==== rasLove help")
+   print("./rasLove project path   ", "Create a new love2d project at path")
+   print("./rasLove state path name", "Create a new love2d project at path")
+   print("./rasLove help           ", "Print this help")
+end
+
+function project(path)
+   print('==== Creating new Love2D project at ' .. path)
+   SYSTEM('mkdir -v ' .. path .. '/RasMoon')
+   SYSTEM('cp -v ./src/*.lua ' .. path .. '/RasMoon/.')
+   SYSTEM('cp -v ./love2D/main.lua ' .. path)
+   SYSTEM('cp -v ./love2D/index.lua ' .. path)
+end
+
+function state(path, name)
+   print('==== Creating new Love2D state at ' .. path .. ' with name ' .. name)
+   SYSTEM('cp -v ./love2D/sampleState.lua ' .. path .. '/' .. name .. '.lua')
+   SYSTEM('sed -i \'s/sampleState/' .. name .. '/g\' ' .. path .. '/' .. name .. '.lua')
+   SYSTEM('echo "require \'' .. name .. '\'" >> ' .. path .. '/main.lua')
+end
+
+if not _(arg) then usage() end
+if arg[1] == "project" and _(arg[2]) then
+   project(arg[2])
+elseif arg[1] == "state" and _(arg[2]) and _(arg[3]) then
+   state(arg[2], arg[3])
+else
+   usage()
+end
