@@ -1,0 +1,46 @@
+# Making Games with Lua and LÖVE
+
+## Introduction
+
+### Whoami?
+
+- Web dev by day, game programmer by night.
+
+### Why make games?
+
+- Its fun!
+- You can practice skills you don't use day to day.
+- Stop. Collaborate. and Lua! (good way to socialize with other developers)
+
+
+### What is Lua
+
+- Lua is a tiny little language
+- Simple syntax, you can pick it up quickly
+- Doesn't have a very large standard library
+
+### What is LÖVE?
+
+- Baby don't hurt me
+- It's a wrapper around a c-based cross-platform game programming library (SDL)
+- It lets you create games completely in lua, package them up, and run them on Windows, Mac, and Linux (not iPhone or Android)
+
+
+## Show me the code
+
+### Hello World
+
+- Create main.lua
+- love.graphics.draw()
+- love.graphics.print('Hello World', 10, 10)
+
+### Lets make a game!
+
+### Game Jams
+
+## Games we've made
+
+### Questions?
+
+
+

@@ -1,0 +1,42 @@
+# More Info
+
+## Programming
+
+### [http://love2d.org/]()
+
+The main LÖVE website.
+
+
+### [http://love2d.org/wiki/love]()
+
+The LÖVE API documentation.
+
+
+### [http://www.lua.org/manual/5.1/]()
+
+The Lua documentation.
+
+
+### [Middleclass](https://github.com/kikito/middleclass/wiki)
+
+A smallish class library for Lua.
+
+
+### [HUMP Library](http://vrld.github.com/hump/)
+
+Useful tools for making games.
+
+
+### LÖVE IRC: #love on irc.freenode.net
+
+## Game Jams
+
+### [Bacon Game Jam](http://reddit.com/r/bacongamejam)
+
+### [Expiramental Gameplay Project](http://experimentalgameplay.com/)
+
+### [Game Prototype Challenge](http://gameprototypechallenge.com/)
+
+### [Ludum Dare](http://ludumdare.com/)
+
+### And many more!!

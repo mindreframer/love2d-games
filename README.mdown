@@ -1,0 +1,7 @@
+# Making Games with Lua and LÖVE
+
+This is for a presentation for BarCamp RDU 2011 called "Making Games with Lua and LÖVE". The goal is to show how easy it is to get started programming computer games using the Lua programming language along with the LÖVE library.
+
+Time permitting, we'll go through the whole process of creating a small click-em-up game and pause at various points to talk about useful times, gotchas, and other points of interest.
+
+After the session, attendees should be able to go and start creating their own games and know where to go for more information.
