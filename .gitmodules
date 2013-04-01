@@ -1,0 +1,12 @@
+[submodule "libs/middleclass"]
+	path = libs/middleclass
+	url = https://github.com/kikito/middleclass.git
+[submodule "libs/stateful"]
+	path = libs/stateful
+	url = https://github.com/kikito/stateful.lua.git
+[submodule "libs/beholder"]
+	path = libs/beholder
+	url = https://github.com/kikito/beholder.lua.git
+[submodule "libs/tween"]
+	path = libs/tween
+	url = https://github.com/kikito/tween.lua.git
